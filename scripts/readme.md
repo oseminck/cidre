@@ -14,9 +14,9 @@ Requires to install selenium and the "gecko" driver:
 * install "geckodriver" from https://github.com/mozilla/geckodriver/releases
 
 To start downloading a list of eBooks:
-* create a new directory at the same level as the scripts and call it 'corpus'. 
-* empty the variable `alreadyDownloaded`: replace the current definition starting on line 61 by `alreadyDownloaded=[]`
-* remplace the content of the variable `booksToDownload` by the list of URLs of books to download or by a list of lists with 2 elements: first the URL to download, then the file name to use to save the file. There are two examples of 'booksToDownload' provided in the two formats (line 82 and 102).
+* create a new directory at the same level as the scripts and call it 'corpus'
+* empty the variable `alreadyDownloaded`: replace the current definition starting on line 61
+* remplace the content of the variable `booksToDownload` by the list of URLs of books to download or by a list of lists with 2 elements: first the URL to download, then the file name to use to save the file. There are two examples of 'booksToDownload' provided in the two formats (line 82 and 102)
 * simply execute the following command: 
 ```python step1-getEBooks.py```
 
@@ -27,7 +27,7 @@ Tested on Windows 10 and MacOs
 
 Convert ePub e-books into XML-TEI using Pandoc and into TXT format, cleaning header and footer from the download source, image captions and footnotes
 
-The books must be stored in a folder named `corpus` in the same folder as this script.
+The books must be stored in a folder named `corpus` in the same folder as this script
 
 Requires to install pandoc from https://pandoc.org/installing.html
 
