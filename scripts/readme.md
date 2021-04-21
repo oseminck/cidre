@@ -17,7 +17,7 @@ To start downloading a list of eBooks:
 * create a new directory at the same level as the scripts and call it 'corpus'. 
 * empty the variable `alreadyDownloaded`: replace the current definition starting on line 61 by `alreadyDownloaded=[]`
 * remplace the content of the variable `booksToDownload` by the list of URLs of books to download or by a list of lists with 2 elements: first the URL to download, then the file name to use to save the file. There are two examples of 'booksToDownload' provided in the two formats (line 82 and 102).
-* Simply execute the following command: 
+* simply execute the following command: 
 ```python step1-getEBooks.py```
 
 Tested on Windows 10 and MacOs
@@ -32,7 +32,7 @@ The books must be stored in a folder named `corpus` in the same folder as this s
 Requires to install pandoc from https://pandoc.org/installing.html
 
 To clean the e-books:
-* Simply execute the following command: 
+* simply execute the following command: 
 ```python step2-convertToTei.py```
 
 Tested on Windows 10 and MacOs
