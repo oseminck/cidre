@@ -18,7 +18,7 @@ To start downloading a list of eBooks:
 * empty the variable `alreadyDownloaded`: replace the current definition starting on line 61 by `alreadyDownloaded=[]`
 * remplace the content of the variable `booksToDownload` by the list of URLs of books to download or by a list of lists with 2 elements: first the URL to download, then the file name to use to save the file. There are two examples of 'booksToDownload' provided in the two formats (line 82 and 102).
 * Simply execute the following command: 
-python step1-getEBooks.py 
+```python step1-getEBooks.py```
 
 Tested on Windows 10 and MacOs
 
@@ -33,6 +33,6 @@ Requires to install pandoc from https://pandoc.org/installing.html
 
 To clean the e-books:
 * Simply execute the following command: 
-python step2-convertToTei.py 
+```python step2-convertToTei.py```
 
 Tested on Windows 10 and MacOs
